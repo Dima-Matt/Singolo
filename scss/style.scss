@@ -1,0 +1,67 @@
+@import 'reset.scss';
+@import url(/fonts/fonts.scss);
+
+
+html {
+    font: {
+        family: 'Lato';
+        size: 10px;
+    }
+}
+
+.header-wrapper {
+    background-color: aquamarine;
+    max-width: 1020px;
+    height: 65px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000025;
+}
+
+//// ЛОГОТИП ШАПКИ
+
+.logo {
+    font: {
+        size: 2.5rem;
+        weight: 700;
+    }
+    line-height: 3rem;
+    color: #ffffff;
+}
+
+.logo span {
+    color: #EDFF7E;
+}
+
+
+/////// МЕНЮ ШАПКИ
+
+.header__menu {
+    display: flex;
+    align-items: center;  
+    gap: 2.5rem;
+    &-item-link {
+        color: white;
+        font: {
+            size: 1.2rem;
+            weight: 700;
+            line-height: 1.44rem;
+        }
+    }
+    &-item + &-item::before {
+        content: '';
+        display: block;
+        width: 0.3rem;
+        height: 0.3rem;
+        border-radius: 50%;
+        background-color: #ffffff;
+        margin: 6px 0 -8px -13px;
+    }
+}
+
+
+li.header__menu-item:first-child a.header__menu-item-link:first-child{
+    color: #EDFF7E;
+}
