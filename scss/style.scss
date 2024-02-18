@@ -11,7 +11,7 @@ html {
 
 .wrapper {
     margin: 0 auto;
-    width: 1020px;
+    max-width: 1020px;
 }
 
 /////////////////////////////     ШАПКА //////////////////////////////
@@ -127,5 +127,219 @@ li.header__menu-item:first-child a.header__menu-item-link:first-child{
     right: 2.7rem;
 }
 
+
+//////////////////////////  CЕРВИСЫ   /////////////////////////////
+
+
+/// ЗАГОЛОВОК И ТЕКСТ
+
+.services-wrapper {
+    max-width: 1020px;
+    height: 484px;
+    background-color: white;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text {
+    width: 1020px;
+    height: 115px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &__name {
+        width: 940px;
+        height: 36px;       
+        font: {
+            size: 2rem;
+            weight: 900;
+        }
+        line-height: 3.6rem;
+    
+    }
+    &__direction {
+        width: 940px;
+        height: 60px;       
+        font: {
+                weight: 400;
+                size: 1.6rem;
+            }
+        line-height: 3rem;
+        }
+    
+}
+
+/// КОНТЕНТ
+
+.content {
+    width: 1020px;
+    height: 238px;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    &-item {
+      width: 300px;
+      height: 98px;
+      display: flex;
+      gap: 20px;
+      &__text {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        &-name {
+            align-self: start;
+            width: 220px;
+            height: 20px;
+                line-height: 1.8rem;
+                color: #5A5A7F;
+                font: {
+                    size: 1.8rem;
+                    weight: 900;
+                }
+            
+        }
+        &-direction {
+            align-self: flex-end;
+            width: 220px;
+            height: 66px;
+            font: {
+                    size: 1.2rem;
+                    weight: 400;
+                }
+            line-height: 2.2rem;
+            color: #5A5A7F;
+            text-align: justify;
+            }
+        
+    }
+}
+}
+
+
+///////////////////////////////  ПОРТФОЛИО /////////////////////////
+
+/// ТЕКСТ И ОПИСАНИЕ
+
+.portfolio-wrapper {
+    width: 1020px;
+    height: 865px;
+    background-color: #EDFF7E;
+    padding: 30px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.portfolio__text {
+    width: 1020px;
+    height: 134px;
+    padding: 0 40px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    &-name {
+        width: 940px;
+        height: 36px;
+        font: {
+            size: 2rem;
+            weight: 900;
+        }
+        line-height: 3.6rem;
+    }
+    &-description {
+        width: 940px;
+        height: 30px;
+        font: {
+            size: 1.6rem;
+            weight: 400;
+        }
+        color:#5A5A7F;
+        line-height: 3rem;
+    }
+}
+
+///// ТЭГИ
+
+.tag {
+    width: 316px;
+    height: 28px;
+    display: flex;
+    gap: 16px;
+    &-item {
+    font: {
+        size: 1.2rem;
+        weight: 400;
+    }
+    color: #7067CF;
+    line-height: 1.2rem;
+    text-align: center;
+    padding: 0.8rem;
+    border: 1px solid #7067CF;
+    border-radius: 0.4rem;
+    &-1 {
+        color: white;
+        background-color: #7067CF;
+    }
+    }
+    &-item:hover {
+    cursor: pointer;
+}
+}
+
+//// ГАЛЕРЕЯ
+
+.gallery {
+    width: 1020px;
+    height: 601px;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    &-item {
+        width: 220px;
+        height: 187px;
+        &-1 {
+            background-image: url(/png/portfolio-1.png);
+        }
+        &-2 {
+            background-image: url(/png/portfolio-2.png);
+        }
+        &-3 {
+            background-image: url(/png/portfolio-3.png);
+        }
+        &-4 {
+            background-image: url(/png/portfolio-4.png);
+        }
+        &-5 {
+            background-image: url(/png/portfolio-5.png);
+        }
+        &-6 {
+            background-image: url(/png/portfolio-6.png);
+        }
+        &-7 {
+            background-image: url(/png/portfolio-7.png);
+        }
+        &-8 {
+            background-image: url(/png/portfolio-8.png);
+        }
+        &-9 {
+            background-image: url(/png/portfolio-9.png);
+        }
+        &-10 {
+            background-image: url(/png/portfolio-10.png);
+        }
+        &-11 {
+            background-image: url(/png/portfolio-11.png);
+        }
+        &-12 {
+            background-image: url(/png/portfolio-12.png);
+        }
+       
+    }
+}
 
 
