@@ -343,3 +343,36 @@ li.header__menu-item:first-child a.header__menu-item-link:first-child{
 }
 
 
+////////////////////////// ФУТЕР ////////////////////////////////
+
+.footer-wrapper {
+    width: 1020px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    gap: 668px;
+    padding: 20px 40px;
+    border-top: 1px solid #D4CBFF;
+    background-color: #EDFF7E;
+}
+
+.footer__description {
+    width: 118px;
+    height: 17px;
+    align-self:center;
+    font: {
+        size: 1.3rem;
+        weight: 900;
+       }
+       line-height: 1.8rem;
+       color: #5A5A7F;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    width: 152px;
+    height: 32px;
+}
+
+
