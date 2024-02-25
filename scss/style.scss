@@ -12,12 +12,15 @@ html {
 .wrapper {
     margin: 0 auto;
     max-width: 1020px;
+    // display: flex;
+    // flex-direction: column;
+   
 }
 
 /////////////////////////////     ШАПКА //////////////////////////////
 
 .header-wrapper {
-    max-width: 1020px;
+    // max-width: 1020px;
     height: 65px;
     padding: 20px 40px;
     display: flex;
@@ -76,7 +79,7 @@ li.header__menu-item:first-child a.header__menu-item-link:first-child{
 
 
 .main-wrapper-1 {
-    max-width: 1020px;
+    // max-width: 1020px;
     height: 594px;
     background-color: #7067CF;
     display: flex;
@@ -87,7 +90,7 @@ li.header__menu-item:first-child a.header__menu-item-link:first-child{
 
 /// ТЕЛЕФОНЫ
 .main__phone-wrapper-1 {
-    width: 796px;
+    max-width: 796px;
     height: 505.95px;
     display: flex;
     align-items: center;
@@ -134,7 +137,7 @@ li.header__menu-item:first-child a.header__menu-item-link:first-child{
 /// ЗАГОЛОВОК И ТЕКСТ
 
 .services-wrapper {
-    max-width: 1020px;
+    // max-width: 1020px;
     height: 484px;
     background-color: white;
     padding-top: 60px;
@@ -144,7 +147,7 @@ li.header__menu-item:first-child a.header__menu-item-link:first-child{
 }
 
 .text {
-    width: 1020px;
+    // width: 1020px;
     height: 115px;
     padding: 0 40px;
     display: flex;
@@ -175,7 +178,7 @@ li.header__menu-item:first-child a.header__menu-item-link:first-child{
 /// КОНТЕНТ
 
 .content {
-    width: 1020px;
+    // width: 1020px;
     height: 238px;
     padding: 0 40px;
     display: flex;
@@ -225,7 +228,7 @@ li.header__menu-item:first-child a.header__menu-item-link:first-child{
 /// ТЕКСТ И ОПИСАНИЕ
 
 .portfolio-wrapper {
-    width: 1020px;
+    // width: 1020px;
     height: 865px;
     background-color: #EDFF7E;
     padding: 30px 0 60px 0;
@@ -235,7 +238,7 @@ li.header__menu-item:first-child a.header__menu-item-link:first-child{
 }
 
 .portfolio__text {
-    width: 1020px;
+    // width: 1020px;
     height: 134px;
     padding: 0 40px;
     display: flex;
@@ -293,7 +296,7 @@ li.header__menu-item:first-child a.header__menu-item-link:first-child{
 //// ГАЛЕРЕЯ
 
 .gallery {
-    width: 1020px;
+    // max-width: 1020px;
     height: 601px;
     padding: 0 40px;
     display: flex;
@@ -346,7 +349,7 @@ li.header__menu-item:first-child a.header__menu-item-link:first-child{
 ////////////////////////// ФУТЕР ////////////////////////////////
 
 .footer-wrapper {
-    width: 1020px;
+    // width: 1020px;
     height: 72px;
     display: flex;
     justify-content: space-between;
@@ -376,3 +379,182 @@ li.header__menu-item:first-child a.header__menu-item-link:first-child{
 }
 
 
+@media screen and (max-width: 768px) {
+
+
+    
+
+    .phone_horizontal-1_size {
+        width: 365px;
+        height: 181px;
+    }
+
+    .phone_vertical-1_size {
+        width: 181px;
+        height: 365px;
+    }
+
+    .main__phone-wrapper-1 {
+        gap: 55px;
+       
+    }
+
+    .main__arrow_right-1 {
+        position: relative;
+        right: 40px;
+    }
+
+    .main__arrow_left-1 {
+        position: relative;
+        left: 40px;
+    }
+       
+    .text__direction-style {
+        width: 668px;
+        height: 90px;
+       
+    }
+
+    .content {
+       position: relative;
+       top: 40px;
+       height: 356px;
+    }
+
+    .services-wrapper {
+    
+        height: 632px;
+        display: flex;
+        gap: 40px;
+       
+    }
+
+   .portfolio-wrapper {
+        height: 1048px;
+   }
+
+   .gallery {
+       gap: 12px;
+       height: 1048px;
+   
+   }
+
+   .footer-wrapper {
+        gap: 410px;
+   }
+
+}
+
+@media screen and (max-width: 375px) {
+    .header__navigation {
+        display: none;
+    }
+    
+    .header-wrapper {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .main-wrapper-1 {
+        width: 375px;
+        height: 218.38px;
+    }
+
+    .phone_vertical-1_size {
+        width: 79px;
+        height: 168px;
+    }
+
+    .phone_horizontal-1_size {
+        width: 168px;
+        height: 79px;
+    }
+
+    .main__phone-wrapper-1 {
+        gap: 35.58px;
+        
+    }
+
+    .main__arrow {
+        width: 16px;
+        height: 16px;
+    }
+
+    .main__arrow_left-1 {
+        position: relative;
+        left: 30px;
+    }
+
+    .main__arrow_right-1 {
+        position: relative;
+        right: 30px;
+
+    }
+
+    .services-wrapper {
+        width: 375px;
+        height: 1076px;
+        padding: 60px 0 30px 0;
+        display: flex;
+        gap: 60px;
+       
+    }
+
+    .text__direction-style {
+        width: 295px;
+        height: 180px;
+    }
+
+    .text {
+        width: 295px;
+        height: 180px;
+    }
+
+    .content {
+        width: 375px;
+        height: 710px;
+        gap: 20px;
+        padding: 0 40px;
+        
+    }
+
+    .portfolio-wrapper {
+        width: 375px;
+        height: 1355px;
+        padding: 30px 0 60px 0;
+    }
+    
+    .portfolio__text {
+        width: 375px;
+        height: 194px;
+        gap: 20px;
+        display: flex;
+        &-description {
+            width: 295px;
+            height: 90px;
+        }
+    }
+
+    .gallery {
+        width: 375px;
+        height: 1031px;
+        gap: 13px;
+        padding: 0 20px;
+        &-item {
+            width: 161px;
+            height: 161px;
+        }
+    }
+
+    .footer-wrapper {
+        gap: 65px;
+        padding: 20px;
+    }
+    
+    .footer__links {
+        width: 152px;
+        height: 32px;
+    }
+    
+}
